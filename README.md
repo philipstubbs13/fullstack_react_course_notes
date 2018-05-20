@@ -44,3 +44,10 @@
   * Identifies our application with Google's servers.
 * clientSecret
   * Private token - we don't want anyone to see this!
+
+## Theory of Authentication
+
+* HTTP is Stateless
+  * HTTP inherently has no way to identify or share information between two separate requests.
+  * Information between requests is not shared by default.
+* Cookie-based authentication
